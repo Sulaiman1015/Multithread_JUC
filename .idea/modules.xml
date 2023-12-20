@@ -3,7 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Multithread_JUC.iml" filepath="$PROJECT_DIR$/.idea/Multithread_JUC.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mythread/mythread.iml" filepath="$PROJECT_DIR$/mythread/mythread.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thread_base/thread_base.iml" filepath="$PROJECT_DIR$/thread_base/thread_base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thread_safety/thread_safety.iml" filepath="$PROJECT_DIR$/thread_safety/thread_safety.iml" />
     </modules>
   </component>
 </project>
