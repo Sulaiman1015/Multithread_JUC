@@ -1,7 +1,5 @@
 package producer_consumer;
 
-import javafx.scene.control.Tab;
-
 public class Foodie extends Thread {
     @Override
     public void run() {

@@ -1,4 +1,4 @@
-//public class ThreadDemo extends Thread {
+package base_demo;//public class base_demo.ThreadDemo extends Thread {
 //    /*
 //     * the sale of 50 tickets totally across three ticket counters (guichets) using multiple threads
 //     */
@@ -6,7 +6,7 @@
 //    @Override
 //    public void run() {
 //        while (true){
-//            synchronized (ThreadDemo.class){
+//            synchronized (base_demo.ThreadDemo.class){
 //                if( ticket < 50 ){
 ////                    try {
 ////                        Thread.sleep(100);
@@ -42,11 +42,11 @@ public class ThreadDemo implements Runnable {
     }
 
     public static void main(String[] args) {
-//        ThreadDemo t1 = new ThreadDemo();
+//        base_demo.ThreadDemo t1 = new base_demo.ThreadDemo();
 //        t1.setName("t1");
-//        ThreadDemo t2 = new ThreadDemo();
+//        base_demo.ThreadDemo t2 = new base_demo.ThreadDemo();
 //        t2.setName("t2");
-//        ThreadDemo t3 = new ThreadDemo();
+//        base_demo.ThreadDemo t3 = new base_demo.ThreadDemo();
 //        t3.setName("t3");
 //        t1.start();
 //        t2.start();

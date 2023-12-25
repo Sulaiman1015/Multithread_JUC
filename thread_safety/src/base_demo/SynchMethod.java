@@ -1,3 +1,5 @@
+package base_demo;
+
 public class SynchMethod implements Runnable {
     private static int ticket = 0;
     private static final int TOTAL_TICKETS = 20;
