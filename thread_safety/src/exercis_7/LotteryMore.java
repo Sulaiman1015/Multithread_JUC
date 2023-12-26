@@ -36,14 +36,11 @@ public class LotteryMore implements Callable<List<Integer>> {
         List<Integer> list = new ArrayList<>(Arrays.asList(10, 20, 5, 50, 100, 200, 500, 800, 2, 80, 300, 700));
         LotteryMore lottery = new LotteryMore(list);
 
-        List<List<Integer>> allBoxLists = new ArrayList<>(); // Store all boxLists
-
         for (int i = 1; i <= boxes; i++) {
             FutureTask<List<Integer>> ft = new FutureTask<>(lottery);
             Thread t = new Thread(ft, "Boxes_" + i);
             t.start();
             List<Integer> boxList = ft.get();
-            allBoxLists.add(boxList); // Store each boxList
 
             // Find and print max prize for each boxList
             Integer max = Collections.max(boxList);
